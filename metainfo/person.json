@@ -1,0 +1,14 @@
+{
+  "package_name" : "com.converscient.sms",
+  "class_name" : "People",
+  "properties" : [
+    {"name": "firstName", "type": "String"},
+    {"name": "lastName", "type": "String"},
+    {"name": "address", "type": "String"},
+    {"name": "country", "type": "String"},
+    {"name": "postalCode", "type": "Integer"},
+    {"name": "homeContact", "type": "String"},
+    {"name": "officeContact", "type": "String"},
+    {"name": "mobileContact", "type": "String"}
+  ]
+}

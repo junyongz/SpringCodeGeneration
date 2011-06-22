@@ -1,0 +1,19 @@
+{
+  "package_name" : "com.converscient.sms.course",
+  "imports" : ["java.io.Serializable", "java.util.Date", "javax.persistence.Basic", 
+	       "javax.persistence.GeneratedValue", "javax.persistence.Id",
+	       "javax.persistence.Version", "javax.persistence.Entity"],
+  "class_name" : "Intake",
+  "annotations" : ["Entity"],
+  "implements" : {"name": "Serializable"},
+  "properties" : [
+    {"name": "id", "type": "Long", "annotations" : ["Id", "GeneratedValue"]},
+    {"name": "version", "type": "Long", "annotations" : ["Version"]},
+    {"name": "createdBy", "type": "Long", "annotations" : ["Basic"]},
+    {"name": "createdDate", "type": "Date", "annotations" : ["Basic"]},
+    {"name": "updatedBy", "type": "Long", "annotations" : ["Basic"]},
+    {"name": "updatedDate", "type": "Date", "annotations" : ["Basic"]},
+    {"name": "courseId", "type": "Long", "annotations" : ["Basic"]},
+    {"name": "minimumSignup", "type": "Integer", "annotations" : ["Basic"]}
+  ]
+}
